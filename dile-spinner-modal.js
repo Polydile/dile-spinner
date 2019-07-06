@@ -12,7 +12,7 @@ class DileSpinnerModal  extends DileSpinnerMixin(LitElement) {
       div {
         display: flex;
         position: fixed;
-        background-color: var(--dile-spinner-global-background-color, rgba(255, 255, 255, 0.8));
+        background-color: var(--dile-spinner-modal-background-color, rgba(255, 255, 255, 0.8));
         height: 100vh;
         width: 100vw;
         justify-content: center;
@@ -25,7 +25,7 @@ class DileSpinnerModal  extends DileSpinnerMixin(LitElement) {
         width: 120px;
         height: 120px;
         border-radius: 60px;
-        background-color: var(--dile-spinner-global-box-color, rgba(0, 0, 0, 0.9));
+        background-color: var(--dile-spinner-modal-box-color, rgba(0, 0, 0, 0.9));
         display: flex;
         align-items: center;
         justify-content: center;

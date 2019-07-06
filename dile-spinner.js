@@ -1,7 +1,7 @@
 import { LitElement, html, css } from 'lit-element';
 import { DileSpinnerMixin } from './dile-spinner-mixin';
 
-class DileSpinner  extends DileSpinnerMixin(LitElement) {
+export class DileSpinner  extends DileSpinnerMixin(LitElement) {
 
   static get styles() {
     return css`

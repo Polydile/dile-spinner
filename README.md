@@ -51,8 +51,8 @@ Same as dile-spinner implementation.
 
 Custom property | Description | Default
 ----------------|-------------|---------
---dile-spinner-global-background-color | The modal layer background color | rgba(255, 255, 255, 0.8)
---dile-spinner-global-box-color | Color of a small layer rounding the spinner element for higher contrast and visibility | rgba(0, 0, 0, 0.9)
+--dile-spinner-modal-background-color | The modal layer background color | rgba(255, 255, 255, 0.8)
+--dile-spinner-modal-box-color | Color of a small layer rounding the spinner element for higher contrast and visibility | rgba(0, 0, 0, 0.9)
 
 ```html
 <style>
