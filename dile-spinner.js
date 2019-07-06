@@ -1,6 +1,7 @@
 import { LitElement, html, css } from 'lit-element';
+import { DileSpinnerMixin } from './dile-spinner-mixin';
 
-class DileSpinner  extends LitElement {
+class DileSpinner  extends DileSpinnerMixin(LitElement) {
 
   static get styles() {
     return css`
@@ -24,7 +25,7 @@ class DileSpinner  extends LitElement {
         width: 6px;
         height: 6px;
         border-radius: 50%;
-        background: #fff;
+        background: var(--dile-spinner-color, #888);
         margin: -3px 0 0 -3px;
       }
       i div:nth-child(1) {
@@ -94,28 +95,15 @@ class DileSpinner  extends LitElement {
     `;
   }
 
-  static get properties() {
-    return {
-      active: { type: Boolean } 
-    };
-  }
-
-  constructor() {
-    super();
-    this.active = false;
-  }
-
   render() {
     return html`
     ${this.active
-      ? html`
-        <i><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></i>
-        `
+      ? html`<i><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></i>`
       : ''
     }
     `;
   }
-  
+
 }
 
 customElements.define('dile-spinner', DileSpinner);

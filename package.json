@@ -21,5 +21,8 @@
     "Spinner",
     "LitElement",
     "Ajax"
-  ]
+  ],
+  "dependencies": {
+    "lit-element": "^2.2.0"
+  }
 }
