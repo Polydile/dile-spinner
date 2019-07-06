@@ -2,6 +2,8 @@
 
 A pack of web components to implement the tipical "Ajax loading" spinner interface. Based on LitElement.
 
+More details: [Go to DEMO page](https://dile-spinner.polydile.com)
+
 ## \<dile-spinner>
 
 The simpler implementation. Useful to show a inline spinner element, localized in the place where you put the dile-spinner element.
