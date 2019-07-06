@@ -1,6 +1,6 @@
 {
   "name": "dile-spinner",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "Web Component to create a spinner element to display during Ajax calls or other asynchronous tasks",
   "main": "dile-spinner.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/midesweb/dile-spinner.git"
+    "url": "git+https://github.com/polydile/dile-spinner.git"
   },
   "author": "@midesweb",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/midesweb/dile-spinner/issues"
+    "url": "https://github.com/polydile/dile-spinner/issues"
   },
-  "homepage": "https://github.com/midesweb/dile-spinner#readme",
+  "homepage": "https://github.com/polydile/dile-spinner#readme",
   "keywords": [
     "Web Component",
     "Spinner",
