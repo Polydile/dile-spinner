@@ -1,6 +1,6 @@
 {
   "name": "dile-spinner",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Web Component to create a spinner element to display during Ajax calls or other asynchronous tasks",
   "main": "dile-spinner.js",
   "scripts": {
