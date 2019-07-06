@@ -2,16 +2,16 @@
 
 A pack of web components to implement the tipical "Ajax loading" spinner interface. Based on LitElement.
 
-# \<dile-spinner>
+## \<dile-spinner>
 
 The simpler implementation. Useful to show a inline spinner element, localized in the place where you put the dile-spinner element.
 
-## Installation
+### Installation
 ```bash
 npm i dile-spinner
 ```
 
-## Usage
+### Usage
 ```html
 <script type="module">
   import 'dile-spinner/dile-spinner.js';
@@ -20,30 +20,34 @@ npm i dile-spinner
 <dile-spinner active></dile-spinner>
 ```
 
-### Properties
+#### Properties
 
 - **active**: Boolean, defines the spinner visibility. The spinner only appears when active is true.
 
-### Styling
+#### Styling
 
 Custom property | Description | Default
 ----------------|-------------|---------
 --dile-spinner-color | The ajax loading color | #888
 
 
-# \<dile-spinner-modal>
+## \<dile-spinner-modal>
 
 This is an adaptation of the dile-spinner element using a modal box, blocking the interface of the rest of the page when the spinner is active.
 
-## Usage
+### Usage
+
+Same as dile-spinner implementation. 
+
 ```html
 <script type="module">
   import 'dile-spinner/dile-spinner-modal.js';
 </script>
 
 <dile-spinner-modal active></dile-spinner-modal>
+```
 
-### Styling
+#### Styling
 
 Custom property | Description | Default
 ----------------|-------------|---------
