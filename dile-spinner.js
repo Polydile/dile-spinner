@@ -22,8 +22,8 @@ class DileSpinner  extends DileSpinnerMixin(LitElement) {
         content: " ";
         display: block;
         position: absolute;
-        width: 6px;
-        height: 6px;
+        width: var(--dile-spinner-dot-size, 6px);
+        height: var(--dile-spinner-dot-size, 6px);
         border-radius: 50%;
         background: var(--dile-spinner-color, #888);
         margin: -3px 0 0 -3px;

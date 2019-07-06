@@ -29,7 +29,7 @@ npm i dile-spinner
 Custom property | Description | Default
 ----------------|-------------|---------
 --dile-spinner-color | The ajax loading color | #888
-
+--dile-spinner-dot-size | The size of the dots in the spinner animation | 6px
 
 ## \<dile-spinner-modal>
 
@@ -51,6 +51,17 @@ Same as dile-spinner implementation.
 
 Custom property | Description | Default
 ----------------|-------------|---------
---dile-spinner-color | The ajax loading color | #888
 --dile-spinner-global-background-color | The modal layer background color | rgba(255, 255, 255, 0.8)
 --dile-spinner-global-box-color | Color of a small layer rounding the spinner element for higher contrast and visibility | rgba(0, 0, 0, 0.9)
+
+```html
+<style>
+.customized {
+  --dile-spinner-color: #3ca;
+  --dile-spinner-dot-size: 10px;
+  --dile-spinner-global-background-color: #505050;
+  --dile-spinner-global-box-color: #fff;
+}
+</style>
+<dile-spinner-modal active class="customized" id="spinnerModal"></dile-spinner-modal>
+```
