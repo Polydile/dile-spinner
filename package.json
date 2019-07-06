@@ -4,7 +4,10 @@
   "description": "Web Component to create a spinner element to display during Ajax calls or other asynchronous tasks",
   "main": "dile-spinner.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "site:build": "npm run storybook:build",
+    "storybook": "start-storybook -p 9001",
+    "storybook:build": "build-storybook -o _site -s storybook-static"
   },
   "repository": {
     "type": "git",
@@ -24,5 +27,8 @@
   ],
   "dependencies": {
     "lit-element": "^2.2.0"
+  },
+  "devDependencies": {
+    "@open-wc/demoing-storybook": "^0.2.0"
   }
 }
