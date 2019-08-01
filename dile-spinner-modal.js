@@ -7,7 +7,7 @@ class DileSpinnerModal  extends DileSpinnerMixin(LitElement) {
   static get styles() {
     return css`
       :host {
-        display: inline-block;
+        display: block;
       }
       div {
         display: flex;

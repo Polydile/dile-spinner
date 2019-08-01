@@ -14,7 +14,6 @@ storiesOf('dile-spinner', module)
       <dile-spinner active></dile-spinner>
       `,
   )
-  .add('Documentation', () => withClassPropertiesKnobs(DileSpinner), { notes: { markdown: readme } })
   .add(
     'Customized active spinner',
     () => html`
@@ -28,7 +27,12 @@ storiesOf('dile-spinner', module)
       </style>
       <dile-spinner active class="customized"></dile-spinner>
       `,
-  );
+  )
+  .add('Documentation', () => withClassPropertiesKnobs(DileSpinner), { 
+    notes: { markdown: readme },
+    template: html`This is a checkbox!`
+
+  })
 
   storiesOf('dile-spinner-modal', module)
   .add(
