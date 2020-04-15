@@ -61,8 +61,8 @@ Custom property | Description | Default
 .customized {
   --dile-spinner-color: #3ca;
   --dile-spinner-dot-size: 10px;
-  --dile-spinner-global-background-color: #505050;
-  --dile-spinner-global-box-color: #fff;
+  --dile-spinner-modal-background-color: #505050;
+  --dile-spinner-modal-box-color: #fff;
 }
 </style>
 <dile-spinner-modal active class="customized" id="spinnerModal"></dile-spinner-modal>
