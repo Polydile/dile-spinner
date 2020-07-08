@@ -1,3 +1,8 @@
+# Moved
+
+**This package has moved** and is now available at [@dile/dile-spinner](https://github.com/Polydile/dile-components). Please update your dependencies. This repository is no longer maintained.
+
+
 # dile-spinner
 
 A pack of web components to implement the tipical "Ajax loading" spinner interface. Based on LitElement.
@@ -39,7 +44,7 @@ This is an adaptation of the dile-spinner element using a modal box, blocking th
 
 ### Usage
 
-Same as dile-spinner implementation. 
+Same as dile-spinner implementation.
 
 ```html
 <script type="module">
